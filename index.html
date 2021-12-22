@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application to your Spacetrip</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Iteration 1: Add the Astronaut Images -->
+<img src="/Assets/astrodude.png" alt="Astronaut_1" id="Astronaut_1">
+<img src="/Assets/astrobro.png" alt="Astronaut_2" id="Astronaut_2">
+
+    <!-- Iteration 2: Create the form tag and add all the required questions using label-->
+<form>
+    <h1>Rocket Around The Moon With Your BFFs</h1>
+    <label for="country" class="block-display">Departure Country</label>
+    <select name="country" id="countries">
+        <option value="India">India</option>
+        <option value="USA">USA</option>
+        <option value="UAE">UAE</option>
+    </select>
+    <label for="travellers" class="block-display">No. Of Space Travellers</label>
+    <input type="number" name="travellers" id="travellers">
+    <label for="email" class="block-display">Your E-Mail</label>
+    <input type="email" name="email" id="email" placeholder="uwu@email.com">
+    <label for="rent" class="block-display">Do You Want To Rent A Space Suit?</label>
+    <input type="radio" id="yes" name="rent-button" value="yes">
+    <label for="yes">Yes Please</label>
+    <input type="radio" id="no" name="rent-button" value="no">
+    <label for="no" class="rent-label">No, I Have My Own</label>
+
+    <input type="submit" id="button" value="TAKE US TO SPACE">
+</form>
+
+</body>
+
+</html>
